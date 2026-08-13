@@ -1,0 +1,20 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "name": "Motorola Edge 70 Fusion",
+      "color": "Orient Blue",
+      "storage": "512GB",
+      "price": 37999,
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-70-fusion-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Motorola Edge 50 Pro",
+      "color": "Luxe Lavender",
+      "storage": "256GB",
+      "price": 29999,
+      "image": "https://static.toiimg.com/thumb/resizemode-4,msid-109002277,imgsize-200,width-600,imgv-1/109002277.jpg"
+    }
+  ]
+}

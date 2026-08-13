@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moto Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Motorola Phone Store</h1>
+    <!-- Dark Mode Toggle Button -->
+    <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+      <span id="themeIcon">🌙</span> <span id="themeText">Dark Mode</span>
+    </button>
+  </div>
+  
+  <div class="search-container">
+    <input type="text" id="searchBox" placeholder="Search by name or color..." oninput="searchPhones()">
+  </div>
+</header>
+
+<div class="container">
+  <main id="phoneList"></main>
+
+  <aside id="cart">
+    <h2>Your Cart</h2>
+    <div id="cartItems"><p class="empty-msg">Your cart is empty.</p></div>
+    <div class="cart-summary">
+      <div>Total Items: <span id="cartCount">0</span></div>
+      <div class="total-price-row">Total: ₹<span id="cartTotal">0</span></div>
+    </div>
+  </aside>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
